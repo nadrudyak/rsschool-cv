@@ -1,9 +1,9 @@
 # Nadezda Rudyak
-**Date of Birth:** 09.02.1987
-**Current City:** Grodno, BY
-**Phone number:** +375297979246
-**Email address:** nadrudyak@gmail.com
-**Skype ID:** kirylko87 
+# **Date of Birth:** 09.02.1987
+# **Current City:** Grodno, BY
+# **Phone number:** +375297979246
+# **Email address:** nadrudyak@gmail.com
+# **Skype ID:** kirylko87 
 
 ## Skills and Experience
 1. Knowledge of HTML5, CSS;
