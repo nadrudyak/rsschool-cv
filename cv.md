@@ -19,7 +19,7 @@ _https://github.com/nadrudyak/nadrudyak.github.io/blob/main/project/index.html_
 
 ## Completed training courses:
 
-1. IT-Academy by Grodno - Website development with HTML, CSS, Javascript. Certificate - _https://drive.google.com/drive/u/0/my-drive_;
+1. IT-Academy by Grodno - Website development with HTML, CSS, Javascript;
 2. Video courses on programming - ITVDN:
 - course Javascript Starter;
 - advanced HTML5 & CSS3.
