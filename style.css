@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 253, 253);
+    color: rgb(83, 78, 78);
+}
+
+main {
+    background-image: url(https://st.depositphotos.com/3008028/3749/i/600/depositphotos_37492679-stock-photo-abstract-gray-background-of-white.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 60%;
+    height: 1100px;
+    padding: 40px;
+}
+
+h1 {
+    margin: auto;
+}
