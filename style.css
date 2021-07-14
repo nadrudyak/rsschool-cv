@@ -41,7 +41,7 @@ section {
 }
 
 main {
-    height: 700px;
+    height: 900px;
 }
 
 main:after {
@@ -77,8 +77,8 @@ a {
 }
 
 img .wrapp__element {
-    width: 20%;
     margin: auto;
+    border-radius: 15%;
 }
 
 span {
