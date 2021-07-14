@@ -2,46 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <title>My CV</title>
 </head>
 
 <body>
+    <header>
+        <h1>Nadezda Rudyak </h1>
+        <h2>Junior Front-end Developer</h2>
+
+    </header>
+
     <main>
-        <h1>Nadezda Rudyak</h1>
-        <h2>Junior Front-end Developer </h2>
-        <img src="./image/изображение_viber_2021-04-13_10-01-51.jpg" alt="photo" width="200px">
-        <section></section>
-        <section></section>
         <section>
-            <h2>
-                Code example
-            </h2>
-            <p>Just dummy code example, to show sourse code markdown</p>
-            <pre>// Copy one obj to another in JS
-      
-      const myObj = {
-          "a": 1,
-          "b": 12
-      };
-      
-      let myObjCopy = {};
-      
-      for (let key in myObj) {
-          console.log(key);
-          myObjCopy[key] = myObj[key];
-      }
-      
-      myObjCopy.a = 5;
-      console.log(myObj);
-      console.log(myObjCopy);</pre>
+            <img src="/images/photo.jpg" alt="photo" width="200px">
+            <ul>
+                <li> <span>Date of Birth:</span> 09.02.1987 </li>
+                <li> <span>Current City:</span> Grodno, BY</li>
+                <li> <span>Phone number:</span> +375297979246</li>
+                <li> <span>Email address:</span> nadrudyak@gmail.com</li>
+                <li> <span>Skype ID: </span> kirylko87</li>
+            </ul>
         </section>
+
+        <aside>
+            <h2>Skills and Experience</h2>
+
+            <ol>
+                <li> Knowledge of HTML5, CSS;</li>
+                <li> JavaScript basics;</li>
+                <li> Git/GitHub;</li>
+                <li> English - level A2;</li>
+                <li> Willingness to learn and work on improving your skills and knowledge;</li>
+                <li> Ability to work in a team;</li>
+                <li> Knowledge of Visual Studio Code.</li>
+            </ol>
+
+            <h2>Completed training courses:</h2>
+            <ol>
+                <li> IT-Academy by Grodno - Website development with HTML, CSS, Javascript;</li>
+                <li>Video courses on programming - ITVDN:
+                    <ul>
+                        <li>course Javascript Starter;</li>
+                        <li>advanced HTML5 & CSS3.</li>
+                    </ul>
+            </ol>
+        </aside>
+
     </main>
     <footer>
-        <p> <a href="https://nadrudyak.github.io/rsschool-cv/">Cсылкa на мой гитхаб</a> </p> , год создания приложения, логотип курса со ссылкой на курс
+        <div class=wrapp>
+            <div class=wrapp__element><a href="https://github.com/nadrudyak">Мой гитхаб</a></div>
+            <div class=wrapp__element> 2021</div>
+            <div class=wrapp__element>
+                <a href="  https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="rs.school"> </a>
+            </div>
+        </div>
+
     </footer>
 </body>
 
