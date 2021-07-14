@@ -23,3 +23,23 @@ _https://github.com/nadrudyak/nadrudyak.github.io/blob/main/project/index.html_
 2. Video courses on programming - ITVDN:
 - course Javascript Starter;
 - advanced HTML5 & CSS3.
+
+  
+      <pre>// Copy one obj to another in JS
+
+const myObj = {
+    "a": 1,
+    "b": 12
+};
+
+let myObjCopy = {};
+
+for (let key in myObj) {
+    console.log(key);
+    myObjCopy[key] = myObj[key];
+}
+
+myObjCopy.a = 5;
+console.log(myObj);
+console.log(myObjCopy);</pre>
+  
